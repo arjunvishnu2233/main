@@ -1,0 +1,12 @@
+div p{
+    color: blue;
+}
+.main >p{ 
+  color: aquamarine;  
+}
+.main+p{
+    color: blue;
+}
+.main~p{
+    color: blueviolet;
+}
