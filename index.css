@@ -1,12 +1,62 @@
-div p{
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+div p {
     color: blue;
 }
-.main >p{ 
-  color: aquamarine;  
+div > p { 
+  color: red;  
 }
-.main+p{
+div + p {
     color: blue;
 }
-.main~p{
+div ~ p {
     color: blueviolet;
+}
+div #one{
+    color: aqua;
+}
+div #two{
+    color: rgb(rgb(192, 67, 67), rgb(81, 170, 81), rgb(86, 86, 139));
+}
+div #three{
+    color: #444;
+}
+div #four{
+    color:hsl(300, 50%, 50%);
+}
+div #five{
+    color: rgba(rgb(155, 56, 56), rgb(130, 192, 130), rgb(115, 115, 182), 0.25);
+}
+div #six{
+    color: hsla(250, 50%, 50%, 0.50);
+}
+div #seven {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+     font-weight:700 ;
+     font-size: medium;
+     font-variant: small-caps;
+     color: blueviolet;
+}
+div #eight{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+     font-weight:700 ;
+     font-size: medium;
+     font-variant: small-caps;
+     color: blueviolet;
+}
+div #nine{
+
+    font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 35px;
+     font-variant: small-caps;
+     color: blueviolet;
+}
+ 
+ div #ten{
+    text-align: justify;
+    text-align-last:right;
+    direction: ltr;
 }
