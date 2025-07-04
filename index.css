@@ -60,3 +60,21 @@ div #nine{
     text-align-last:right;
     direction: ltr;
 }
+div{
+    font-size: 20px;
+}
+.inner{
+    font-size: 2rem;
+}
+.outer{
+    font-size: 2em;
+}
+h2{
+    font-size: 20vmax;
+}
+button{
+    background: goldenrod;
+    color: antiquewhite;
+    padding: 20px 30px 20px 30px;
+}
+
