@@ -76,5 +76,20 @@ button{
     background: goldenrod;
     color: antiquewhite;
     padding: 20px 30px 20px 30px;
+    margin: 50px;
+    border-color: brown;
+    border-style: double;
+    border-width: 5px;
+    /* border-radius: 20px; */
+
+    border-color: aqua blue brown blueviolet;
+    
+} 
+.size p{
+    color: aqua;
+    background-color: blue;
+    padding: 10px;
+    box-sizing: content-box;
 }
+
 
