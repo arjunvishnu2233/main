@@ -80,16 +80,73 @@ button{
     border-color: brown;
     border-style: double;
     border-width: 5px;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 
     border-color: aqua blue brown blueviolet;
     
 } 
-.size p{
-    color: aqua;
-    background-color: blue;
-    padding: 10px;
-    box-sizing: content-box;
+.size border{
+     background: goldenrod;
+    color: antiquewhite;
+    padding: 20px;
+    margin: 50px;
 }
 
+.high{
+    height: 150vh;
+    width: 500px;
+    background-color: green;
+     /* position:relative;
+    top: 40px;
+    left: 30px;
+    padding: 10px; */
+} 
+.sub{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    right: 10px;
+}
+.fixed{
+     height: 50px;
+     width: 50px;
+     background-color: green;
+     border-radius: 50%;
+     position: fixed;
+     bottom: 0px;
+     right: 0px;
+     margin: 30px; 
+}
+ .main2{
+    height: 150vh;
+     width: 500px;
+     background-color:red;
+}
+.sub2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: sticky;
+    top: 10px;
+} 
+.main3{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    /* overflow: scroll; */
+    overflow: hidden;
+}
+.main4{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 0, 0, 0.459);
 
+}
+.sub1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:relative ;
+    z-index: 1;
+}
