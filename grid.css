@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first{
+    height: 800px;
+    width: 800px;
+    background-color: darkgreen;
+}
+.main1{
+    height: 800px;
+    width: 800px;
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    /* grid-auto-rows: 0px; */
+    /* gap: 20px; */
+    /* justify-content: center; */
+    /* align-content: end; */
+    /* place-content:centre; */
+
+}
+.card,.card1{
+background-color: bisque;
+border: 1px solid black;
+}
+.card1{
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-row: 1/3;
+}
