@@ -1,0 +1,78 @@
+.btn{
+    /* background-color:blue; */
+    color: grey;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    padding: 20px,10px;
+}
+
+.btn1{
+    background-color:blue;
+    color: grey;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    padding: 20px,10px;
+    /* transition-property: width; */
+    transition-duration: 5s;
+  
+}
+
+.btn1:hover{
+transform: translateY(200px);
+}
+
+.btn2{
+    background-color:blue;
+    color: grey;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    /* padding: 20px,10px; */
+    /* transition-property: width; */
+    transition-duration: 5s;
+}
+
+.btn2:hover{
+transform: rotate(720deg);
+}
+
+.btn3{
+    background-color:blue;
+    color: grey;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    padding: 20px,10px;
+    /* transition-property: width; */
+    transition-duration: 5s;
+}
+
+.btn3:hover{
+ transform:scaleY(2);
+}
+
+.btn4{
+    background-color:blue;
+    color: grey;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    padding: 20px,10px;
+    /* transition-property: width; */
+    transition-duration: 5s;
+   }
+
+.btn4:hover{
+transform: skew(40deg);
+}
