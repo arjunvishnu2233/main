@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .main{
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 100%;
+   
+}
+.new{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    animation-name: movement;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction:normal ;
+     position: relative;
+}
+
+@keyframes movement{
+    5%{
+        top:0%;
+        left:0% ;
+        background-color:greenyellow;
+    }
+    25%{
+        top:200px;
+        left:0px;
+        background-color: green;
+    }
+    50%{animation-name: movement;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction:normal ;
+        top:200px;
+        left:200px;
+        background-color: red;
+    }
+    75%{
+        top:0px;
+        left:200px;
+        background-color: blue;
+    }
+} */
+
+
+.hai{
+    background-color: aqua;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hai1{
+    background-color: chartreuse;
+    height:90vh;
+    width:50%;
+    margin-top: 50px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-bottom: 20px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.bounce{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 100%;
+    animation-name: falling;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction:normal ;
+    position: relative;
+    transition: ease;
+}
+
+@keyframes falling{
+    0%{
+        top: 0px;
+        bottom: 150px;
+    }
+    49%{
+        top:66vh;
+        bottom:0px;
+        background-color: black;
+    }
+    50%{
+        top: 66vh;
+        bottom: 0px;
+        background-color: blue;
+    }
+    85%{
+        top:50vh;
+        bottom:0px;
+        background-color: blue;
+    }
+    100%{
+        top:0px;
+        bottom: 150px;
+        background-color: blue;
+    }
+}
